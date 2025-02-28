@@ -1,0 +1,268 @@
+:root {
+    /* Colors */
+    --background: rgb(250, 250, 250);
+    --white: #ffffff;
+    --black: #000000;
+    --red: #D14836;
+    --linkedin: #0077B5;
+    --forest: #2E8B57;
+    --gold: #FFD700;
+    --silver: #C0C0C0;
+    --bronze: #CD7F32;
+    --grey: #707070;
+    --light-grey: #D3D3D3;
+    --lighter-grey: #E8E8E8;
+    
+    /* Text */
+    --not-achieved-text: rgba(255, 255, 255, 0.7);
+    
+    /* Layout */
+    --border-radius: 8px;
+    --box-shadow: 0px 4px 24px 0px;
+}
+
+/* Base Styles */
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: var(--background);
+    margin: 0;
+    padding: 24px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Layout */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Title Box */
+.title-box {
+    background: var(--linkedin);
+    color: var(--white);
+    border-radius: var(--border-radius);
+    padding: 16px 24px;
+    margin-bottom: 24px;
+    box-shadow: rgba(0, 119, 181, 0.2) var(--box-shadow);
+}
+
+.title-box .section-title {
+    color: var(--white);
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Trophy Cards */
+.connect-card {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: rgba(0, 0, 0, 0.15) var(--box-shadow);
+}
+
+.connect-card.description-section {
+    background: var(--forest);
+    color: var(--white);
+    box-shadow: rgba(39, 120, 85, 0.9) var(--box-shadow);
+}
+
+/* Trophy Categories */
+.connect-card.description-section[data-category="Gold"] {
+    background: var(--gold);
+    box-shadow: rgba(255, 215, 0, 0.9) var(--box-shadow);
+    color: var(--black);
+}
+
+.connect-card.description-section[data-category="Silver"] {
+    background: var(--silver);
+    box-shadow: rgba(192, 192, 192, 0.9) var(--box-shadow);
+    color: var(--black);
+}
+
+.connect-card.description-section[data-category="Bronze"] {
+    background: var(--bronze);
+    box-shadow: rgba(205, 127, 50, 0.9) var(--box-shadow);
+}
+
+/* Not Achieved States */
+.connect-card.description-section.not-achieved {
+    background: var(--grey);
+    opacity: 0.8;
+    box-shadow: rgba(112, 112, 112, 0.4) var(--box-shadow);
+}
+
+.connect-card.description-section.not-achieved[data-category="Gold"] .bi { color: var(--gold); }
+.connect-card.description-section.not-achieved[data-category="Silver"] .bi { color: var(--silver); }
+.connect-card.description-section.not-achieved[data-category="Bronze"] .bi { color: var(--bronze); }
+
+.connect-card.description-section.not-achieved .badge {
+    background-color: var(--light-grey) !important;
+    color: var(--grey) !important;
+}
+
+.connect-card.description-section.not-achieved small,
+.connect-card.description-section.not-achieved p,
+.connect-card.description-section.not-achieved h2 {
+    color: var(--not-achieved-text);
+}
+
+/* Typography */
+.trophy-content .name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 1.1em;
+}
+
+/* Dropdown Styling */
+.dropdown .btn-primary {
+    background: var(--forest);
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 12px 24px;
+    box-shadow: rgba(46, 139, 86, 0.231) var(--box-shadow);
+    transition: transform 0.3s ease;
+}
+
+.dropdown .btn-primary:hover,
+.dropdown .btn-primary:focus,
+.dropdown .btn-primary:active,
+.dropdown .btn-primary.active,
+.dropdown .btn-primary:focus-visible,
+.show > .btn-primary.dropdown-toggle {
+    background: var(--forest) !important;
+    border: none;
+    box-shadow: rgba(46, 139, 86, 0.4) var(--box-shadow);
+    outline: none;
+}
+
+.dropdown .btn-primary:focus-visible {
+    outline: none;
+    box-shadow: rgba(46, 139, 86, 0.9) 0px 4px 24px 0px;
+}
+
+.dropdown-menu {
+    background: var(--white);
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px 0px;
+    padding: 12px 0;
+}
+
+.dropdown-item {
+    padding: 8px 24px;
+    color: var(--black);
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: var(--background);
+}
+
+.dropdown-item.active {
+    background-color: var(--forest);
+    color: var(--white);
+}
+
+.dropdown-divider {
+    margin: 8px 0;
+    border-top: 1px solid var(--background);
+}
+
+.name-box {
+    background: var(--white);
+    color: #333;
+    border-radius: var(--border-radius);
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 4px 24px 0px;
+}
+
+.description-box {
+    background: var(--forest);
+    color: var(--white);
+    border-radius: var(--border-radius);
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: rgba(46, 139, 86, 0.231) 0px 4px 24px 0px;
+}
+
+.email-box {
+    background: var(--red);
+    color: var(--white);
+    border-radius: var(--border-radius);
+    padding: 12px 24px;
+    margin-bottom: 12px;
+    box-shadow: rgba(209, 72, 54, 0.9) 0px 4px 24px 0px;
+    transition: transform 0.3s ease;
+}
+
+.email-box:hover {
+    transform: scale(1.05);
+}
+
+.twitter-box {
+    background: var(--black);
+    color: var(--white);
+    border-radius: var(--border-radius);
+    padding: 12px 24px;
+    margin-bottom: 12px;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 4px 24px 0px;
+    transition: transform 0.3s ease;
+}
+
+.twitter-box:hover {
+    transform: scale(1.05);
+}
+
+.linkedin-box {
+    background: var(--linkedin);
+    color: var(--white);
+    border-radius: var(--border-radius);
+    padding: 12px 24px;
+    margin-bottom: 12px;
+    box-shadow: rgba(0, 119, 181, 0.9) 0px 4px 24px 0px;
+    transition: transform 0.3s ease;
+}
+
+.linkedin-box:hover {
+    transform: scale(1.05);
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.section-title {
+    color: #333;
+    font-size: 2.5rem;  
+    font-weight: 700;
+    margin: 0;
+}
+
+.name {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.links-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: row; 
+}
+.links-container a {
+    flex: 1;
+    text-align: center;
+}
