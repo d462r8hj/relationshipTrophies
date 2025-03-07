@@ -1,41 +1,27 @@
-Title;Category;Description;Date
-Here I am;Bronze;You have akquired a raccoon;1.10.2020
-Lets sniff around somewhere else;Silver;You took the raccoon on a trip;17.07.2023;
-Midnight Snacker;Bronze;Share a midnight snack with your raccoon;
-Cozy Den;Silver;Create a comfortable living space together;
-Trash Panda Party;Gold;Celebrate the Raccoons age;31.05.2024
-Adventure Buddies;Silver;Go on 5 different outdoor adventures together;
-Night Owl Squad;Bronze;Stay up all night watching the stars;
-Master of Disguise;Gold;Successfully convince others your raccoon is just a cat;
-Paw Print Collection;Silver;Visit 10 different parks together;
-Splash Zone;Bronze;Experience first bath time together;2020
-Gourmet Explorer;Silver;Try 10 different snacks together;
-Treat Master;Bronze;Learn your raccoon's favorite treats;23.11.2024
-Midnight Acrobat;Gold;Watch your raccoon perform amazing climbing feats;
-Social Butterfly;Silver;Introduce your raccoon to 5 new friends;
-Cozy Cuddler;Bronze;Have a lazy day with cuddles and naps;
-Forest Explorer;Silver;Find 3 new foraging spots together;
-Hide and Seek Champion;Bronze;Master the art of finding hidden snacks;
-Urban Adventure;Gold;Successfully navigate a city trip together;
-Puzzle Solver;Silver;Watch your raccoon figure out 5 different puzzles;
-Weather Warrior;Bronze;Enjoy outdoor time in all weather conditions;
-Honey Hunter;Bronze;Find the perfect honey shop together;
-Berry Picking Pro;Silver;Collect wild berries in 3 different locations;
-Hibernation Expert;Gold;Perfect the art of lazy Sunday afternoons;
-Forest Guardian;Silver;Help maintain and clean local hiking trails;
-Cave Explorer;Bronze;Create the coziest blanket fort ever;
-Salmon Master;Gold;Learn to catch fish together;
-Mountain Peak;Silver;Reach 5 different mountain viewpoints;
-Gentle Giant;Bronze;Show kindness to smaller creatures;
-Wildlife Photographer;Silver;Document your bear's adventures in nature;
-Pawsome Dance;Bronze;Learn to move gracefully despite the size;
-Bear Necessities;Silver;Master basic outdoor survival skills;
-Forest Feast;Gold;Organize a woodland themed dinner party;
-Paw Print Artist;Bronze;Create art with painted paw prints;
-Trail Blazer;Silver;Discover 3 new hiking paths;
-Den Designer;Gold;Build the ultimate outdoor relaxation spot;
-River Guide;Bronze;Find the best swimming spots;
-Forest Musician;Silver;Learn to appreciate nature's sounds;
-Campfire Stories;Bronze;Share tales under the stars;
-Winter Warrior;Gold;Embrace the cold season together;
-Nature's Pantry;Silver;Identify 10 edible forest plants;
+Title;Category;Description;Date;Percent;img
+Here I am;Bronze;You have akquired a raccoon;1.10.2020;100;https://preview.redd.it/6d7vspfp7fe51.png?auto=webp&s=63151f2b18e2931c8af88fcbb85e886c09140c7e
+Lets sniff around somewhere else;Silver;You took the raccoon on a trip;17.07.2023;100;https://sharons-iconic-travel-photography-blog.com/wp-content/uploads/2023/09/bi8a2386-raccons-canoe_blog.jpg?w=1200
+Cozy Den;Silver;Create a comfortable living space together;;0;https://www.flatrock.org.nz/static/frontpage/assets/animals/curious_raccoon.jpg
+Trash Panda Party;Gold;Celebrate the Raccoons age;31.05.2024;100;https://i.pinimg.com/564x/76/b2/c8/76b2c83d741241cc4deca4dbbef3bff5.jpg
+Adventure Buddies;Silver;Go on 5 different outdoor adventures together;;0;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx_u4hTQDKAXKsUjARnIvqVtZDGB5Uj4S9jA&s
+Ripped bears;Gold;Get visible gym gainz together;;10;https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvcNw7QhF-d1WqGuTvcvcC-eQMI-A8SjBGxeIhpOc-L3XqqypH
+Night Owl Squad;Bronze;Stay up all night watching the stars;;0;https://live.staticflickr.com/5/10784553_32af3c455e_z.jpg
+Paw Print Collection;Silver;Visit 10 different parks together;;0;https://as2.ftcdn.net/v2/jpg/01/48/93/79/1000_F_148937950_YHnB67vW1nVfsMFqqZ60UqTetX9AokWC.jpg
+Splash Zone;Bronze;Experience first bath time together;2020;100;https://i.dailymail.co.uk/1s/2019/01/10/15/8364732-6577983-image-a-5_1547135888871.jpg
+Gourmet Explorer;Silver;Try 10 different foreign restaurants together;;0;https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/TBUSCWYXI5DZ5MO4J7ZDV2WORQ.jpg?auth=1b5466bcd0d5446a0fb52291c9fc927b3ce9ac027831a30ea65af6e36542072f&width=1440
+Treat Master;Bronze;Learn your raccoon's favorite treats;23.11.2024;100;https://pbs.twimg.com/profile_images/1891745831751159808/wYavsDsl_400x400.jpg
+Cozy Cuddler;Bronze;Have a lazy day with cuddles and naps;;0;https://i.pinimg.com/736x/ba/cf/a6/bacfa624b1ebc0bb83726c779ebcf006.jpg
+Hide and Seek Champion;Bronze;Master the art of finding hidden snacks;01.01.2021;100;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ihID-qNk3HjlnnSOPDHzygEw_B836iRgoQ&s
+Urban Adventure;Gold;Successfully navigate a city trip together;14.07.2022;100;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdMXWFpbTAyf7mcW1SrldyA-1x2Rugcl6sTQ&s
+Weather Warrior;Bronze;Enjoy outdoor time in all weather conditions;;0;https://as1.ftcdn.net/v2/jpg/00/61/09/42/1000_F_61094270_VHv6O0mTVWxkVpS47KqkCz2DerDvkY26.jpg
+Hibernation Expert;Bronze;Perfect the art of lazy Sunday afternoons;;0;https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/01/bear_sleeping/23930351-1-eng-GB/Bear_sleeping_pillars.jpg
+Salmon Master;Gold;Learn to catch fish together;;0;https://i.ytimg.com/vi/HeEyJo838PA/maxresdefault.jpg
+Mountain Peak;Silver;Reach 5 different mountain viewpoints;;0;https://www.shutterstock.com/image-photo/brown-bear-mountains-260nw-786941653.jpg
+Wildlife Photographer;Silver;Document your bear's adventures in nature;;0;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReUYiF4G81oUWW0BcrbtyIM44o0az4XL5Q4Q&s
+Pawsome Dance;Bronze;Learn to move gracefully despite the size;;0;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-V8keOosRx3zYgbLiGDhExBsKbrX-zidCUA&s
+Bear Necessities;Silver;Master basic outdoor survival skills;;0;https://d3fldh011ywsk8.cloudfront.net/wp-content/uploads/2020/04/Bjornlie-Bear-Watching_ev8tsb-1.jpg
+Trail Blazer;Silver;Discover 3 new hiking paths;;0;https://www.nps.gov/articles/images/bearsafety_3_1.jpg?maxwidth=650&autorotate=false
+Den Designer;Gold;Build the ultimate outdoor relaxation spot;;0;https://img.aquamagazine.com/files/base/abmedia/all/image/2023/03/6P_1121_AQ_Racoon_lg.641e012770fd6.png?auto=format%2Ccompress&fit=max&q=70&w=400
+River Guide;Bronze;Find the best swimming spots around;;0;https://reidparkzoo.org/wp-content/uploads/2020/10/ronan-grizzly-bear-swimming-18-scaled.jpg
+Forest Musician;Silver;Learn to appreciate nature's sounds;01.10.2020;100;https://media.tenor.com/I1k4TWQ_5H4AAAAM/lazy-lol.gif
+Campfire Stories;Gold;Share tales under the stars;;0;https://img.freepik.com/premium-photo/grizzly-bear-near-campfire-tent-wilderness-camping-scene-with-wildlife-interaction-forest_543222-15258.jpg
